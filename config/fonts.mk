@@ -7,4 +7,7 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/fonts/gobold/GoboldThinLight.ttf:system/fonts/GoboldThinLight.ttf \
     vendor/aosp/prebuilt/fonts/gobold/GoboldThinLight-Italic.ttf:system/fonts/GoboldThinLight-Italic.ttf \
     vendor/aosp/prebuilt/fonts/neoneon/neoneon.ttf:system/fonts/Neoneon-Regular.ttf \
+    vendor/aosp/prebuilt/fonts/roadrage/road_rage.ttf:system/fonts/RoadRage-Regular.ttf \
+    vendor/aosp/prebuilt/fonts/snowstorm/snowstorm.ttf:system/fonts/Snowstorm-Regular.ttf \
+    vendor/aosp/prebuilt/fonts/vcrosd/vcr_osd_mono.ttf:system/fonts/ThemeableFont-Regular.ttf \
     vendor/aosp/prebuilt/fonts/Shamshung/Shamshung.ttf:system/fonts/Shamshung.ttf
