@@ -161,4 +161,7 @@ include vendor/pixelstyle/config.mk
 # Themes
 include vendor/themes/config.mk
 
+# Fonts
+include vendor/aosp/config/fonts.mk
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
