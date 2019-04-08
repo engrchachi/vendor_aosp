@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export Changelog=Changelog.md
+export Changelog=${ANDROID_BUILD_TOP)/vendor/aosp/tools/Changelog.md
 
 echo "Generating changelogs..."
 
