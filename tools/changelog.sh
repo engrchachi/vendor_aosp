@@ -1,4 +1,4 @@
-export Changelog=${ANDROID_BUILD_TOP}/vendor/aosp/tools/Changelog.md
+export Changelog=${ANDROID_BUILD_TOP}/riddim/Changelog.md
 
 echo "Generating changelogs..."
 
