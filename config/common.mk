@@ -127,6 +127,10 @@ PRODUCT_PACKAGES += \
 # SubstratumKey
 PRODUCT_PACKAGES += \
     SubstratumKey
+    
+# Phonograph
+PRODUCT_PACKAGES += \
+    Phonograph
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
