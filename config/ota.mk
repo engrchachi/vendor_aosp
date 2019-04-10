@@ -8,11 +8,11 @@ CUSTOM_OTA_VERSION_CODE := pie
 endif
 
 CUSTOM_PROPERTIES += \
-    com.aosplime.ota.version_code=$(CUSTOM_OTA_VERSION_CODE) \
+    com.aosplime.limeota.version_code=$(CUSTOM_OTA_VERSION_CODE) \
     sys.ota.disable_uncrypt=1
 
-# PRODUCT_PACKAGES += \
-#    OTAUpdater
+ PRODUCT_PACKAGES += \
+    LimeOTA
 
 PRODUCT_COPY_FILES += \
     vendor/aosp/config/permissions/com.aosplime.ota.xml:system/etc/permissions/com.aosplime.ota.xml
