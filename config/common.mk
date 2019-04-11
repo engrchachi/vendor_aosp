@@ -145,10 +145,10 @@ DEVICE_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
 # Key disabler package
 PRODUCT_PACKAGES += \
-    com.aosplime.keydisabler
+    org.poxelexperience.keydisabler
 
 PRODUCT_BOOT_JARS += \
-    com.aosplime.keydisabler
+    org.pixelexperience.keydisabler
 
 # Cutout control overlay
 PRODUCT_PACKAGES += \
