@@ -158,7 +158,9 @@ PRODUCT_PACKAGES += \
 include vendor/aosp/config/branding.mk
 
 # OTA
+ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
 include vendor/aosp/config/ota.mk
+endif
 
 # GApps
 include vendor/gapps/config.mk
